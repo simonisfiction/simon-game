@@ -7,7 +7,7 @@ buttons = document.querySelectorAll("button");
 
 for(var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function() {
-    
+
   }
 }
 
@@ -16,4 +16,14 @@ function gameLoop(){
   while(!fail){
 
   }
+}
+
+function checkFail(userArray gameArray) {
+
+}
+
+
+//return a random number from 1-4
+function randomNumber() {
+  return (1 + Math.round(Math.random() * 4));
 }
